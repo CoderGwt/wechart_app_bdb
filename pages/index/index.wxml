@@ -12,9 +12,14 @@
 </view>
 
 <!-- 九宫格 -->
-<view class='iconMsg'>
+<view class='iconMsg clearfixed'>
   <navigator wx:for="{{msgUrls}}" wx:key="{{index}}">
     <image src='{{item.icon}}'></image>
     <text>{{item.name}}</text>
   </navigator>
+</view>
+
+<view class='navMsg'>
+  <image src='/assets/images/link-01.png'></image>
+  <image src='/assets/images/link-02.png'></image>
 </view>
