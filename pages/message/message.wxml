@@ -1,2 +1,16 @@
-<!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<block wx:for="{{4}}">
+  <view class='box'>
+
+    <view class='box-contain'>
+      <view class='title'>期望入职，找到满意的工作</view>
+      <view class='dateTime'>2019-3-26</view>
+      <view class='msg'>
+        <image src='/assets/images/banana2.jpg'></image>
+        <view class='info'>越努力，越幸运</view>
+      </view>
+      <text class='more jiantou'>Read All ~</text>
+      <!-- <text class='jiantou'></text> -->
+    </view>
+
+  </view>
+</block>
