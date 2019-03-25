@@ -18,8 +18,3 @@
     <text>{{item.name}}</text>
   </navigator>
 </view>
-
-<view class='navMsg'>
-  <image src='/assets/images/link-01.png'></image>
-  <image src='/assets/images/link-02.png'></image>
-</view>
