@@ -13,8 +13,13 @@
 
 <!-- 九宫格 -->
 <view class='iconMsg clearfixed'>
-  <navigator data-id="{{item.id}}" wx:for="{{msgUrls}}" wx:key="{{index}}">
+  <navigator  data-id="{{item.id}}" wx:for="{{msgUrls}}" wx:key="{{index}}" url='/pages/listMsg/listMsg?id={{item.id}}'>
     <image src='{{item.icon}}'></image>
     <text>{{item.name}}</text>
   </navigator>
+</view>
+
+<view class='navMsg'>
+  <image src='/assets/images/link-01.png'></image>
+  <image src='/assets/images/link-02.png'></image>
 </view>
