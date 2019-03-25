@@ -1,5 +1,5 @@
 page{
-  background-color: #ccc;
+  background-color: #ddd;
 }
 
 /* 清除浮动 */
@@ -9,4 +9,21 @@ page{
   height: 0;
   clear: both;
   visibility: hidden;
+}
+
+/* 箭头 >  */
+.jiantou::after{
+  content: "";
+  display: block;
+
+  width: 20rpx;
+  height: 20rpx;
+  border: 1rpx solid red;
+  border-color: #ccc #ccc transparent transparent;
+
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  bottom: 10rpx;
+
 }
