@@ -18,12 +18,11 @@ page{
 
   width: 20rpx;
   height: 20rpx;
-  border: 1rpx solid red;
+  border: 1rpx solid #ccc;
   border-color: #ccc #ccc transparent transparent;
 
   transform: rotate(45deg);
   position: absolute;
   right: 0;
   bottom: 10rpx;
-
 }

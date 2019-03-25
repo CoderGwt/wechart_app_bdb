@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/message/message",
-    "pages/center/center"
+    "pages/center/center",
+    "pages/listMsg/listMsg"
   ],
   "window":{
     "backgroundTextStyle":"light",
