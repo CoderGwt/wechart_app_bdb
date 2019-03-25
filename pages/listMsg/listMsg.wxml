@@ -1,6 +1,6 @@
 <block wx:for="{{listMsgUrls}}" wx:key="{{index}}">
   <view class='box clearfixed'>
-    <navigator>
+    <navigator url='/pages/msgDetail/msgDetail' data-msg="{{item}}" bindtap='sendMsg'>
       <image src='{{item.images[0]}}'></image>
       <view class='msg'>
         <text class='title'>{{item.name}}</text>

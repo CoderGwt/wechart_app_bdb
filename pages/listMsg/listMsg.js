@@ -8,6 +8,14 @@ Page({
     listMsgUrls: []
   },
 
+  sendMsg: (res) => {
+    console.log(res);
+    wx.setStorage({
+      key: 'msg',
+      data: res.currentTarget.dataset.msg,
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -28,6 +36,7 @@ Page({
           this.setData({
             listMsgUrls: res.data
           });
+
           wx.hideLoading();
         }else{
           wx.hideLoading();
