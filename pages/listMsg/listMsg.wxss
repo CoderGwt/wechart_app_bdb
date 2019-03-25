@@ -1,0 +1,42 @@
+page{
+  background-color: #fff;
+}
+.box{
+  width: 96%;
+  height: 240rpx;
+  margin: 20rpx auto;
+  border-bottom: 1rpx solid #ccc;
+}
+.box:last-child{
+  border-bottom: none;
+}
+
+.box navigator image{
+  width: 220rpx;
+  height: 220rpx;
+  float: left;
+  margin-right: 10rpx;
+}
+
+.box navigator .msg{
+  float: left;
+  width: 400rpx;
+}
+
+.box navigator .msg text{
+  display: block;
+  font-size: 30rpx;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+.box navigator .msg .title{
+  font-size: 40rpx;
+  color: #000;
+}
+
+.box navigator .msg text{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

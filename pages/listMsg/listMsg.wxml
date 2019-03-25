@@ -1,0 +1,13 @@
+<block wx:for="{{listMsgUrls}}" wx:key="{{index}}">
+  <view class='box clearfixed'>
+    <navigator>
+      <image src='{{item.images[0]}}'></image>
+      <view class='msg'>
+        <text class='title'>{{item.name}}</text>
+        <text class='phone'>电话: {{item.phone}}</text>
+        <text class='address'>{{item.address}}</text>
+        <text class='time'>{{item.businessHours}}</text>
+      </view>
+    </navigator>
+  </view>
+</block>
