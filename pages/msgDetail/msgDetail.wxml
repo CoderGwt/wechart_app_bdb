@@ -1,0 +1,27 @@
+<view class='box'>
+  <view class='pic'>
+    <image src="{{image}}"></image>
+
+    <view class='msg'>
+      <text class='title'>{{title}}</text>
+      <text class='address'>{{address}}</text>
+      <text class='dateTime'>营业时间：{{dateTime}}</text>
+    </view>
+  </view>
+
+  <block wx:for="{{comments}}" wx:key="{{index}}">
+    <view class='comments clearfixed'>
+      <text class='name'>{{item.name}}</text> 
+      <view class='userMsg'>
+        <view class='score'>{{item.rating}}</view>
+        <view class='time'>{{item.date}}</view>
+      </view>
+      <view class='comments_msg'>
+        {{item.content}}
+      </view>
+    </view>
+  </block>
+  
+  
+
+</view>

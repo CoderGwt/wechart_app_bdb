@@ -1,0 +1,65 @@
+/* pages/msgDetail/msgDetail.wxss */
+page{
+  background-color: #fff;
+}
+
+.box .pic {
+  width: 100%;
+  border-bottom: 10rpx solid #ccc;
+}
+.box .pic image{
+  width: 100%;
+  height: 400rpx;
+}
+
+.box .pic .msg{
+  width: 94%;
+  padding: 20rpx;
+  margin: 0 auto;
+}
+
+.box .pic .msg text{
+  display: block;
+  font-size: 30rpx;
+  color: #444;
+  line-height: 1.6;
+}
+
+.box .pic .msg .title{
+  font-size: 46rpx;
+  color: #000;
+  font-weight: 500;
+}
+
+
+/* 评论内容 */
+.box .comments{
+  width: 90%;
+  margin: 40rpx auto;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.box .comments .name{
+  font-size: 50rpx;
+  color: #999;
+}
+
+.box .comments .userMsg{
+  float: right;
+  text-align: right;
+}
+
+.box .comments .userMsg .score{
+  font-size: 36rpx;
+  color: red;
+}
+.box .comments .userMsg .time{
+  font-size: 36rpx;
+  color: #666;
+}
+
+.box .comments .comments_msg{
+  margin: 40rpx 10rpx;
+  font-size: 40rpx;
+}
