@@ -37,12 +37,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "消息页",
 					"pathName": "pages/message/message",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "列表详情页",
+					"pathName": "pages/listMsg/listMsg",
 					"scene": null
 				}
 			]
